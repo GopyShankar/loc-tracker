@@ -7,7 +7,6 @@ class appCtr extends CI_Controller {
     {
 	parent::__construct();
 	$this->load->model('appMod');
-	$result=$this->appMod->signup();
     }
     
     public function index()
